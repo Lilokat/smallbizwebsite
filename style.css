@@ -62,12 +62,12 @@ ul
     list-style: none;
 }
 
-
 footer{
     text-align:start;
     padding-left: 2%;
-    
-    color: #000;
+    bottom: 2%;
+    position: fixed;
+    color: black;
 }
 .container
 {
