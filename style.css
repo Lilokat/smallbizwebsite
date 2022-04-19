@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+/*header properties*/
+.header h1{
+    
+    font-size: 48px;
+    text-align: center;
+    margin: 3%;
+    text-shadow: 20px;
+}
+
+
+                /*home page properties*/
+body.home{background-image:url("images/bluetang.jpg");}
+
+.home
+{
+    color:rgba(0, 0, 0, 0.5)
+}
+
+/* home left page properties*/
+.home .item ul li {
+    text-align: left;
+    text-align: top;
+    font-size: 48px;
+    font-weight: 600;
+}
+/* home nav page properties*/
+nav
+{
+    display: flex;
+    align-items: top;
+    margin-top: -20%;
+    flex-direction: column;
+}
+
+nav p a
+{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+nav p a:hover{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+/* home right page properties*/
+ul
+{
+    list-style: none;
+}
+
+
+footer{
+    text-align:start;
+    padding-left: 2%;
+    
+    color: #000;
+}
+.container
+{
+    display: flex;
+    justify-content:left;
+    align-items:center;  
+}
+
+.item{
+    width: 40%;
+    margin: 10px;
+    padding:20px;
+    display: flex;
+    align-items: top;
+}
+img{
+    width: 450px;
+    height: auto;
+}
+            /*info page properties*/
+body.info{background-image:url("images/clownfish\ \(2\).jpg");}
+
+.info
+{
+    color: rgba(255, 255, 255, 0.778);
+}
+/*info page text details*/
+.details{
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+    font-weight: 700;
+}
+.row {
+    display: flex;
+  }
+  
+  /* Create equal columns beside each other */
+  .column {
+    width: 100%;
+    height: 100%;
+    flex: 35%;
+    padding: 5px;
+  }
+  .info .button a{
+    color: rgba(255, 255, 255, 0.778);
+  }   
+
+
+               /*gallery page properties*/
+
+
+body.gallery{
+    background-color: hwb(180 94% 0%);
+    color:rgba(0, 0, 0, 0.5)
+
+}
+
+.gallery .container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.gallery .container .box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+
+}
+.gallery .container .box .pics
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.gallery .container .box .pics img
+{
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.gallery .button a{
+    color:rgba(0, 0, 0, 0.5)
+  }   
+  
+                /*About page properties*/
+body.about
+{
+    background-image:url("images/parakeets.jpg");
+    color: rgba(255, 255, 255, 0.778);
+}
+.about p
+{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+ion-icon {
+    font-size: 64px;
+    color: blue;
+  }
+.button a
+{
+    color: rgba(255, 255, 255, 0.778);
+    position: relative;
+    top: -30px;
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+
+.button a:hover{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.social
+{
+    text-align: center;
+}
+.centerimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/*
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;  
+    background-color: azure;
+}
+
+
+.item:nth-of-type(2){
+    background-color: transparent;
+    align-self: flex-end;
+}
+
+   
+*/
